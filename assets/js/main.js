@@ -1,5 +1,6 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
+const individualStats = document.getElementById('individualStats')
 
 const maxRecords = 151
 const limit = 10
@@ -19,6 +20,11 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+            <a href="bulbasaur.html">
+                <button id="individualStats" style="border-radius: 5rem;" type="button">
+                    See more
+                </button>
+            </a>
         </li>
     `
 }
@@ -45,3 +51,7 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+individualStats.addEventListener('click', function(){
+    document.location.href = 'https://pokemondb.net/pokedex/bulbasaur';
+});

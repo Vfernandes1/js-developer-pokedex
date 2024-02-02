@@ -146,6 +146,10 @@
     border-radius: 1rem;
 }
 
+.individualStats {
+    border-radius: 15rem;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;

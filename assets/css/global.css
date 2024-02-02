@@ -4,14 +4,13 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url('/assets/img/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg');
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
 }
 
 @media screen and (min-width: 992px) {
