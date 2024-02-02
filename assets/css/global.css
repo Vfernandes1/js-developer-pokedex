@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url('/assets/img/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg');
+    background-image: url('/assets/img/forest.jpg');
+    display: flex;
 }
 
 .content {

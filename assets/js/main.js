@@ -20,7 +20,7 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
-            <a href="bulbasaur.html">
+            <a href="https://pokemondb.net/pokedex/${pokemon.name}">
                 <button id="individualStats" style="border-radius: 5rem;" type="button">
                     See more
                 </button>

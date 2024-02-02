@@ -150,6 +150,20 @@
     border-radius: 15rem;
 }
 
+.statsButton {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
